@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Greeting from "./pages/Greeting";
+import DemoPage from "./pages/Demo";
 
 function App() {
   return (
     <div className="App">
-      <span>testingpage</span>
-      <Greeting name={"John"} />
+      <p className="title">지원자: 류호익</p>
+      <div className="content">
+        <DemoPage />
+      </div>
     </div>
   );
 }
